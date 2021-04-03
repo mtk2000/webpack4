@@ -10,12 +10,13 @@
 
 //结论：
 // 1、webpack 能处理 js 和 json资源， 不能处理css、img等其它资源
-// 2、生产环境比开发环境多一个js压缩代码
+// 2、生产环境和开发环境都将ES6模块化编译成浏览器能识别的模块化
+// 3、生产环境比开发环境多一个js压缩代码
 
-import "./index.css";
+// import "./index.css";
 
-import data from "./data.json";
-console.log(data);
+import myData from "./data.json";
+console.log(myData);
 
 function add(x, y) {
   return x + y;
