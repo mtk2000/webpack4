@@ -90,10 +90,10 @@
 /*!***********************!*\
   !*** ./src/data.json ***!
   \***********************/
-/*! exports provided: name, age, default */
+/*! exports provided: name, age, fruitList, default */
 /***/ (function(module) {
 
-eval("module.exports = JSON.parse(\"{\\\"name\\\":\\\"pjh\\\",\\\"age\\\":20}\");\n\n//# sourceURL=webpack:///./src/data.json?");
+eval("module.exports = JSON.parse(\"{\\\"name\\\":\\\"pjh\\\",\\\"age\\\":20,\\\"fruitList\\\":[\\\"avocado\\\",\\\"lichee\\\",\\\"mango\\\",null]}\");\n\n//# sourceURL=webpack:///./src/data.json?");
 
 /***/ }),
 

@@ -1,4 +1,5 @@
 {
   "name": "pjh",
-  "age": 20
+  "age": 20,
+  "fruitList": ["avocado", "lichee", "mango", null]
 }
