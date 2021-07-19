@@ -8,7 +8,7 @@ module.exports = {
   // 输出
   output: {
     //输出文件名
-    filename: "built.js",
+    filename: "main.[hash:5].js",
     //__dirname 是 nodejs的变量，代表当前文件的目录绝对路径
     path: resolve(__dirname, "build"),
   },

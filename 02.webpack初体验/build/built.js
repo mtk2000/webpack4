@@ -97,17 +97,6 @@ eval("module.exports = JSON.parse(\"{\\\"name\\\":\\\"pjh\\\",\\\"age\\\":20,\\\
 
 /***/ }),
 
-/***/ "./src/index.css":
-/*!***********************!*\
-  !*** ./src/index.css ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("throw new Error(\"Module parse failed: Unexpected token (2:5)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| html,\\n> body {\\n|   height: 100%;\\n|   background-color: pink;\");\n\n//# sourceURL=webpack:///./src/index.css?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -116,7 +105,7 @@ eval("throw new Error(\"Module parse failed: Unexpected token (2:5)\\nYou may ne
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\nvar _data_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ \"./src/data.json\", 1);\n// index.js\n\n// webpack 入口文件\n\n// 运行指令\n// 开发环境指令： webpack ./src/index.js -o ./build/built.js --mode=development\n//  webpack 会以 ./src/index.js 为入口文件开始打包，打包文件输出到 ./build/built.js，整体打包环境是开发环境\n\n// 生产环境指令： webpack ./src/index.js -o ./build/built.js --mode=production\n\n//结论：\n// 1、webpack 能处理 js 和 json资源， 不能处理css、img等其它资源\n// 2、生产环境和开发环境都将ES6模块化编译成浏览器能识别的模块化\n// 3、生产环境比开发环境多一个js压缩代码\n\n\n\n\nconsole.log(_data_json__WEBPACK_IMPORTED_MODULE_1__);\n\nfunction add(x, y) {\n  return x + y;\n}\n\nconsole.log(add(1, 2));\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\nvar _data_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ \"./src/data.json\", 1);\n// index.js\n\n// webpack 入口文件\n\n// 运行指令\n// 开发环境指令： webpack ./src/index.js -o ./build/built.js --mode=development\n//  webpack 会以 ./src/index.js 为入口文件开始打包，打包文件输出到 ./build/built.js，整体打包环境是开发环境\n\n// 生产环境指令： webpack ./src/index.js -o ./build/built.js --mode=production\n\n//结论：\n// 1、webpack 能处理 js 和 json资源， 不能处理css、img等其它资源\n// 2、生产环境和开发环境都将ES6模块化编译成浏览器能识别的模块化\n// 3、生产环境比开发环境多一个js压缩代码\n\n// import \"./index.css\";\n\n\nconsole.log(_data_json__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction add(x, y) {\n  return x + y;\n}\n\nconsole.log(add(1, 2));\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
