@@ -15,8 +15,9 @@
 
 // import "./index.css";
 
-import myData from "./data.json";
-console.log(myData);
+// import myData from "./data.json";
+// console.log(myData);
+// console.table(myData.fruitList);
 
 function add(x, y) {
   return x + y;

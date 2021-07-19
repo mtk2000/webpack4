@@ -1,5 +1,9 @@
 {
   "name": "pjh",
   "age": 20,
-  "fruitList": ["avocado", "lichee", "mango", null]
+  "fruitList": [
+    { "name": "avocado", "count": 10 },
+    { "name": "apple", "count": 2 },
+    { "name": "peach", "count": 87 }
+  ]
 }
