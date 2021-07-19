@@ -86,14 +86,26 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/data.json":
+/*!***********************!*\
+  !*** ./src/data.json ***!
+  \***********************/
+/*! exports provided: name, age, fruitList, default */
+/***/ (function(module) {
+
+eval("module.exports = JSON.parse(\"{\\\"name\\\":\\\"pjh\\\",\\\"age\\\":20,\\\"fruitList\\\":[{\\\"name\\\":\\\"avocado\\\",\\\"count\\\":10},{\\\"name\\\":\\\"apple\\\",\\\"count\\\":2},{\\\"name\\\":\\\"peach\\\",\\\"count\\\":87}]}\");\n\n//# sourceURL=webpack:///./src/data.json?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("// index.js\n\n// webpack 入口文件\n\n// 运行指令\n// 开发环境指令： webpack ./src/index.js -o ./build/built.js --mode=development\n//  webpack 会以 ./src/index.js 为入口文件开始打包，打包文件输出到 ./build/built.js，整体打包环境是开发环境\n\n// 生产环境指令： webpack ./src/index.js -o ./build/built.js --mode=production\n\n//结论：\n// 1、webpack 能处理 js 和 json资源， 不能处理css、img等其它资源\n// 2、生产环境和开发环境都将ES6模块化编译成浏览器能识别的模块化\n// 3、生产环境比开发环境多一个js压缩代码\n\n// import \"./index.css\";\n\n// import myData from \"./data.json\";\n// console.log(myData);\n// console.table(myData.fruitList);\n\nfunction add(x, y) {\n  return x + y;\n}\n\nconsole.log(add(1, 2));\n\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\nvar _data_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ \"./src/data.json\", 1);\n// index.js\n\n// webpack 入口文件\n\n// 运行指令\n// 开发环境指令： webpack ./src/index.js -o ./build/built.js --mode=development\n//  webpack 会以 ./src/index.js 为入口文件开始打包，打包文件输出到 ./build/built.js，整体打包环境是开发环境\n\n// 生产环境指令： webpack ./src/index.js -o ./build/built.js --mode=production\n\n//结论：\n// 1、webpack 能处理 js 和 json资源， 不能处理css、img等其它资源\n// 2、生产环境和开发环境都将ES6模块化编译成浏览器能识别的模块化\n// 3、生产环境比开发环境多一个js压缩代码\n\n// import \"./index.css\";\n\n\nconsole.log(_data_json__WEBPACK_IMPORTED_MODULE_0__);\nconsole.table(_data_json__WEBPACK_IMPORTED_MODULE_0__.fruitList);\n\nfunction add(x, y) {\n  return x + y;\n}\n\nconsole.log(add(1, 2));\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
