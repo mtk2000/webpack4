@@ -6,4 +6,4 @@ function add(x, y) {
   return x + y;
 }
 
-console.log(add(121, 40));
+console.log(add(100, 40));
