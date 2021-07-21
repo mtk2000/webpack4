@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename: "built.js",
+    filename: "built.min.js",
     path: resolve(__dirname, "build"),
   },
   plugins: [
@@ -15,5 +15,5 @@ module.exports = {
       template: "./src/index.html",
     }),
   ],
-  mode: "development",
+  mode: "production",
 };

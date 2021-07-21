@@ -10,7 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.less$/,
-        // 要使用多个loader处理用use数组
+        // 要使用多个loader处理用use数组【顺序是从右往左，从下往上】
         use: ["style-loader", "css-loader", "less-loader"],
       },
       // 问题：处理不了 html 中 img 的图片
@@ -32,7 +32,7 @@ module.exports = {
           //给图片进行重命名
           //[hash:10] 取图片hash值的前10位
           //[ext] 读取原来的拓展名
-          name: "[hash:10].[ext]",
+          name: "[hash:5].[ext]",
         },
       },
       {
